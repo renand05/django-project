@@ -7,6 +7,7 @@ name = "pypi"
 django = "~=3.1.1"
 psycopg2-binary = "~=2.8.6"
 django-environ = "~=0.4.5"
+pokebase = "*"
 
 [dev-packages]
 

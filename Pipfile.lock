@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "950a06fe9131a6f253e8e58bcf12fb8c85f7077301ab3534fb1053897f93bdcc"
+            "sha256": "ef870cf4e4d51ffe7f11d04353951ceaaaa3c5e31ac90be0c3ad6e9e523f44d7"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -24,6 +24,21 @@
             "markers": "python_version >= '3.5'",
             "version": "==3.3.1"
         },
+        "certifi": {
+            "hashes": [
+                "sha256:1a4995114262bffbc2413b159f2a1a480c969de6e6eb13ee966d470af86af59c",
+                "sha256:719a74fb9e33b9bd44cc7f3a8d94bc35e4049deebe19ba7d8e108280cfd59830"
+            ],
+            "version": "==2020.12.5"
+        },
+        "chardet": {
+            "hashes": [
+                "sha256:0d6f53a15db4120f2b08c94f11e7d93d2c911ee118b6b30a04ec3ee8310179fa",
+                "sha256:f864054d66fd9118f2e67044ac8981a54775ec5b67aed0441892edb553d21da5"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
+            "version": "==4.0.0"
+        },
         "django": {
             "hashes": [
                 "sha256:5c866205f15e7a7123f1eec6ab939d22d5bde1416635cab259684af66d8e48a2",
@@ -39,6 +54,22 @@
             ],
             "index": "pypi",
             "version": "==0.4.5"
+        },
+        "idna": {
+            "hashes": [
+                "sha256:b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6",
+                "sha256:b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==2.10"
+        },
+        "pokebase": {
+            "hashes": [
+                "sha256:1fab389df211f22d0987e8aae45d0d19b5db7b3eb0c92dca48283f74e9df4f70",
+                "sha256:a5881566bfaa6f9a860b847be0a648f23b02babdaf79ab96f6a6d0295b497c34"
+            ],
+            "index": "pypi",
+            "version": "==1.3.0"
         },
         "psycopg2-binary": {
             "hashes": [
@@ -88,6 +119,14 @@
             ],
             "version": "==2020.5"
         },
+        "requests": {
+            "hashes": [
+                "sha256:27973dd4a904a4f13b263a19c866c13b92a39ed1c964655f025f3f8d3d75b804",
+                "sha256:c210084e36a42ae6b9219e00e48287def368a26d03a048ddad7bfee44f75871e"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
+            "version": "==2.25.1"
+        },
         "sqlparse": {
             "hashes": [
                 "sha256:017cde379adbd6a1f15a61873f43e8274179378e95ef3fede90b5aa64d304ed0",
@@ -95,6 +134,14 @@
             ],
             "markers": "python_version >= '3.5'",
             "version": "==0.4.1"
+        },
+        "urllib3": {
+            "hashes": [
+                "sha256:19188f96923873c92ccb987120ec4acaa12f0461fa9ce5d3d0772bc965a39e08",
+                "sha256:d8ff90d979214d7b4f8ce956e80f4028fc6860e4431f731ea4a8c08f23f99473"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4'",
+            "version": "==1.26.2"
         }
     },
     "develop": {}
