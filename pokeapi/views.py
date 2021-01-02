@@ -1,4 +1,4 @@
-from rest_framework import viewsets
+from rest_framework import viewsets, status
 from rest_framework.response import Response
 
 from .models import Pokemon
@@ -11,10 +11,15 @@ class PokemonViewSet(viewsets.ViewSet):
         return Response(serializer.data)
 
     def create(self, request):
-        pass
+        serializer = PokemonSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
 
     def retrieve(self, request, pk=None):
-        pass
+        pokemon = Pokemon.objects.get(id=pk)
+        serializer = PokemonSerializer(pokemon)
+        return Response(serializer.data)
 
     def update(self, request, pk=None):
         pass
